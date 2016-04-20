@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VBox left="230" top="100">
+	
+	
+	<Button w="50" h="50" text="'/'" skin:Paint-border="1" on-click="operator = 4; numA = Std.parseFloat(#Text(Nums).text); #Text(Nums).text = '';" />
+	
+	<Button w="50" h="50" text="'C'" skin:Paint-border="1" on-click="#Text(Nums).text = ''; numA = 0;" />
+	
+	<Button w="50" h="50" text="'='" skin:Paint-border="1" on-click="numB = Std.parseFloat(#Text(Nums).text); #Text(Nums).text = '';
+	
+	
+			switch(operator)
+			{
+				case 1:
+				{
+					answer = numA + numB;
+					#Text(Nums).text = Std.string(answer);
+					answer = 0;
+					numA = 0;
+					numB = 0;
+				}
+				
+				case 2:
+				{
+					answer = numA - numB;
+					#Text(Nums).text = Std.string(answer);
+					answer = 0;
+					numA = 0;
+					numB = 0;
+				}
+				
+				case 3:
+				{
+					answer = numA * numB;
+					#Text(Nums).text = Std.string(answer);
+					answer = 0;
+					numA = 0;
+					numB = 0;
+				}
+				
+				case 4:
+				{
+					answer = numA / numB;
+					#Text(Nums).text = Std.string(answer);
+					answer = 0;
+					numA = 0;
+					numB = 0;
+				}
+				
+				
+			}
+	
+	
+											" />
+	
+	
+	
+	
+	
+</VBox>

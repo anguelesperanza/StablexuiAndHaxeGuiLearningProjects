@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VBox left="180" top="100">
+	
+	
+	<Button w="50" h="50" text="'+'" skin:Paint-border="1" on-click="operator = 1; numA = Std.parseFloat(#Text(Nums).text); #Text(Nums).text = '';" />
+	
+	<Button w="50" h="50" text="'-'" skin:Paint-border="1" on-click="operator = 2; numA = Std.parseFloat(#Text(Nums).text); #Text(Nums).text = '';" />
+	
+	<Button w="50" h="50" text="'*'" skin:Paint-border="1" on-click="operator = 3; numA = Std.parseFloat(#Text(Nums).text); #Text(Nums).text = '';" />
+	
+	
+	
+	
+</VBox>

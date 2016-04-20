@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VBox left="120" top="100">
+	
+	<Button text="'3'" w="50" h="50" skin:Paint-border="1" on-click="#Text(Nums).text += $this.text;" />
+	
+	<Button text="'6'" w="50" h="50" skin:Paint-border="1" on-click="#Text(Nums).text += $this.text;" />
+	
+	<Button text="'9'" w="50" h="50" skin:Paint-border="1" on-click="#Text(Nums).text += $this.text;" />	
+	
+</VBox>
