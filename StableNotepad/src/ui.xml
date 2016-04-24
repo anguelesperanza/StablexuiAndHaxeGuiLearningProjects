@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Widget>
+	
+	<Button id="'save'" text="'Save'" left="10" top="10" skin:Paint-border="1" on-click="fr.save(#InputText(textBox).text, 'document.txt');" />
+	<Button id="'open'" text="'Open'" left="40" top="10" skin:Paint-border="1" on-click="loadClicked();" />
+	<InputText id="'textBox'" left="10" w="800" h="480" skin:Paint-border="1" top="40" />
+	
+</Widget>
